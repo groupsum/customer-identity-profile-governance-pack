@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adr:customer-identity-profile-boundary",
+    "number": 1001,
+    "slug": "customer-identity-profile-boundary",
+    "title": "Customer Identity Profile Boundary",
+    "filename": "ADR-1001-customer-identity-profile-boundary.yaml",
+    "target_path": ".ssot/adr/ADR-1001-customer-identity-profile-boundary.yaml",
+    "sha256": "d727763cb01562c9e884067d49afa2d07ca778c6beb80810077da6a7047bb799",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-customer-identity-profile",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  },
+  {
+    "id": "adr:verified-claims-and-profile-authority",
+    "number": 1002,
+    "slug": "verified-claims-and-profile-authority",
+    "title": "Verified Claims And Profile Authority",
+    "filename": "ADR-1002-verified-claims-and-profile-authority.yaml",
+    "target_path": ".ssot/adr/ADR-1002-verified-claims-and-profile-authority.yaml",
+    "sha256": "5fdeee59f33d0c549c3cfbfe0950f66cd57fc56224b1e83c53d0bc441d923399",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-customer-identity-profile",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  }
+]

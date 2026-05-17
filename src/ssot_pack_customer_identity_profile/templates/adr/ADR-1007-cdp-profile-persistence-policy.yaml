@@ -1,0 +1,24 @@
+{
+  "id": "adr:cdp-profile-persistence-policy",
+  "number": 1007,
+  "slug": "cdp-profile-persistence-policy",
+  "title": "CDP Profile Persistence Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Customer data platform profiles are commonly expected to be persistent, unified, and accessible to other systems.",
+    "CDP profile concepts are platform-level customer data concepts and should not be confused with protocol-specific identity provisioning or authentication standards."
+  ],
+  "decision": [
+    "Use CDP Institute CDP concepts when governing persistent unified customer profile records.",
+    "Document how profile unification, persistence, accessibility, and source reconciliation work before treating a CDP profile as authoritative."
+  ],
+  "authority_sources": [
+    "CDP Institute CDP definition and basics"
+  ],
+  "consequences": [
+    "CDP profile records must identify source contribution, merge rules, persistence behavior, and accessibility expectations.",
+    "Protocol-level identity attributes must retain their original source authority when copied into a CDP profile."
+  ]
+}

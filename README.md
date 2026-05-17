@@ -30,8 +30,16 @@ Customer Identity And Profile Data
 
 ## Included ADRs
 
-- `adr:customer-identity-profile-boundary` - Customer Identity Profile Boundary
-- `adr:verified-claims-and-profile-authority` - Verified Claims And Profile Authority
+- `adr:customer-profile-source-policy` - Customer Profile Source Policy
+- `adr:scim-provisioning-profile-policy` - SCIM Provisioning Profile Policy
+- `adr:openid-connect-profile-claims-policy` - OpenID Connect Profile Claims Policy
+- `adr:openid-identity-assurance-policy` - OpenID Identity Assurance Policy
+- `adr:verifiable-credential-profile-policy` - Verifiable Credential Profile Policy
+- `adr:shared-identity-signal-policy` - Shared Identity Signal Policy
+- `adr:cdp-profile-persistence-policy` - CDP Profile Persistence Policy
+- `adr:schema-org-person-profile-policy` - Schema.org Person Profile Policy
+- `adr:profile-identifier-and-attribute-policy` - Profile Identifier And Attribute Policy
+- `adr:verified-profile-evidence-policy` - Verified Profile Evidence Policy
 
 ## Included SPECs
 

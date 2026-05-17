@@ -1,0 +1,32 @@
+{
+  "id": "adr:customer-profile-source-policy",
+  "number": 1001,
+  "slug": "customer-profile-source-policy",
+  "title": "Customer Profile Source Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Customer profile data can be sourced from provisioning systems, authentication providers, verified identity assurance flows, verifiable credentials, customer data platforms, and public linked-data representations.",
+    "These sources have different authority models and should not be merged without a documented source policy."
+  ],
+  "decision": [
+    "Adopt an explicit customer profile source policy before treating profile attributes as authoritative.",
+    "Classify each governed profile attribute by its authority family: SCIM provisioning, OpenID Connect claims, OpenID identity assurance, verifiable credentials, shared identity signals, customer data platform profile records, or Schema.org Person."
+  ],
+  "authority_sources": [
+    "RFC 7643",
+    "RFC 7644",
+    "IANA SCIM Schema URI Registry",
+    "OpenID Connect Core",
+    "OpenID Connect for Identity Assurance",
+    "OpenID Shared Signals Framework",
+    "W3C Verifiable Credentials Data Model",
+    "CDP Institute CDP definition and basics",
+    "Schema.org Person"
+  ],
+  "consequences": [
+    "Profile attributes must carry enough source context to distinguish provisioning, authentication, verified claim, credential, CDP, and public linked-data authority.",
+    "Conflicts between sources require a documented precedence or reconciliation rule."
+  ]
+}

@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "cdp-and-public-profile-semantics-boundary"
+title: "CDP And Public Profile Semantics Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "CDP Institute materials define customer data platform concepts around persistent, unified, accessible customer profiles. Schema.org Person defines public linked-data properties for people and organizations publishing person-like profile data."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  CDP Institute materials define customer data platform concepts around persistent, unified, accessible customer profiles. Schema.org Person defines public linked-data properties for people and organizations publishing person-like profile data.
+  
+  ## Decision
+  
+  CDP source curation covers persistent customer profile concepts, profile unification, profile accessibility, and customer identity data usage at the customer data platform level. Schema.org Person source curation covers public linked-data person semantics and must remain distinct from private provisioning, authentication, assurance, and credential authorities.
+  
+  ## Authority Sources
+  
+  - CDP Institute CDP definition and basics materials.
+  - Schema.org Person.

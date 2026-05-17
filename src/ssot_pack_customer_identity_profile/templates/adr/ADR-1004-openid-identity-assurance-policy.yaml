@@ -1,0 +1,24 @@
+{
+  "id": "adr:openid-identity-assurance-policy",
+  "number": 1004,
+  "slug": "openid-identity-assurance-policy",
+  "title": "OpenID Identity Assurance Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "OpenID Connect for Identity Assurance defines verified claims, assurance metadata, verification methods, trust framework information, and evidence details.",
+    "Verified claims have a different evidence burden from ordinary profile attributes or ordinary authentication claims."
+  ],
+  "decision": [
+    "Use OpenID Connect for Identity Assurance when a downstream system represents verified profile claims obtained through OpenID flows.",
+    "Require verified claim data to preserve evidence, verification, assurance, and trust framework context needed to evaluate the claim."
+  ],
+  "authority_sources": [
+    "OpenID Connect for Identity Assurance"
+  ],
+  "consequences": [
+    "Verified claims must not be flattened into ordinary profile attributes without retaining assurance context.",
+    "Downstream conformance tests should check evidence presence, claim freshness, and assurance metadata where required."
+  ]
+}

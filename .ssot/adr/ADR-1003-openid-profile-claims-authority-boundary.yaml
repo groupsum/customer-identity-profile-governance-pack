@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "openid-profile-claims-authority-boundary"
+title: "OpenID Profile Claims Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "OpenID Connect Core defines standard claims, ID Token context, and the UserInfo endpoint for interoperable profile claims associated with authentication. OpenID Connect for Identity Assurance extends that family with verified claims, assurance metadata, evidence records, and trust framework semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  OpenID Connect Core defines standard claims, ID Token context, and the UserInfo endpoint for interoperable profile claims associated with authentication. OpenID Connect for Identity Assurance extends that family with verified claims, assurance metadata, evidence records, and trust framework semantics.
+  
+  ## Decision
+  
+  OpenID source curation separates baseline OpenID Connect profile claims from verified claims and identity assurance evidence. Standard claims and UserInfo response requirements are governed by OpenID Connect Core. Verified claims, evidence metadata, verification method information, assurance level semantics, and trust framework details are governed by OpenID Connect for Identity Assurance.
+  
+  ## Authority Sources
+  
+  - OpenID Connect Core.
+  - OpenID Connect for Identity Assurance.

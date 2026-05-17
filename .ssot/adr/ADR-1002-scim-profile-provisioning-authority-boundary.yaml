@@ -1,0 +1,29 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "scim-profile-provisioning-authority-boundary"
+title: "SCIM Profile Provisioning Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "SCIM provides authority for interoperable identity provisioning. RFC 7643 defines the core schema, including User and Group resources, common attributes, mutability, returned behavior, uniqueness, and canonical values. RFC 7644 defines protocol operations and service provider behavior. The IANA SCIM Schema URI Registry records registered schema URIs."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  SCIM provides authority for interoperable identity provisioning. RFC 7643 defines the core schema, including User and Group resources, common attributes, mutability, returned behavior, uniqueness, and canonical values. RFC 7644 defines protocol operations and service provider behavior. The IANA SCIM Schema URI Registry records registered schema URIs.
+  
+  ## Decision
+  
+  SCIM source curation is limited to provisioning schema, protocol behavior, resource shape, attribute metadata, extension schema identifiers, and registered schema URI targets. SCIM targets must be separated from authentication token claims, verified claims evidence, credential proofs, CDP profile persistence, and public linked-data semantics.
+  
+  ## Authority Sources
+  
+  - RFC 7643, System for Cross-domain Identity Management: Core Schema.
+  - RFC 7644, System for Cross-domain Identity Management: Protocol.
+  - IANA SCIM Schema URI Registry.

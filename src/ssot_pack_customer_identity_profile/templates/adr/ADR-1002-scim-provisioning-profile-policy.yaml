@@ -1,0 +1,26 @@
+{
+  "id": "adr:scim-provisioning-profile-policy",
+  "number": 1002,
+  "slug": "scim-provisioning-profile-policy",
+  "title": "SCIM Provisioning Profile Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "SCIM defines interoperable user and group provisioning resources, schema metadata, protocol operations, and registered schema URI usage.",
+    "Provisioning attributes are often reused as profile attributes, but SCIM authority does not by itself define authentication claims or verified identity evidence."
+  ],
+  "decision": [
+    "Use SCIM as the authority for profile attributes that are created, updated, queried, or synchronized through SCIM provisioning.",
+    "Separate SCIM schema requirements, SCIM protocol requirements, and SCIM schema URI registration requirements in downstream implementation decisions."
+  ],
+  "authority_sources": [
+    "RFC 7643",
+    "RFC 7644",
+    "IANA SCIM Schema URI Registry"
+  ],
+  "consequences": [
+    "SCIM-backed profile attributes must retain schema, mutability, uniqueness, returned behavior, and extension context where applicable.",
+    "Non-SCIM profile claims require a separate authority decision."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "adr:shared-identity-signal-policy",
+  "number": 1006,
+  "slug": "shared-identity-signal-policy",
+  "title": "Shared Identity Signal Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Identity systems may exchange signals about subjects, account state, credential state, or related security events.",
+    "Shared identity signals are not a replacement for profile schema authority, but they can affect how profile state is trusted or refreshed."
+  ],
+  "decision": [
+    "Use OpenID Shared Signals Framework when a downstream system sends, receives, or evaluates interoperable identity subject signals.",
+    "Keep signal subject representation and event semantics separate from persistent profile attributes unless a documented update rule applies."
+  ],
+  "authority_sources": [
+    "OpenID Shared Signals Framework"
+  ],
+  "consequences": [
+    "Shared signal handling must preserve subject identifiers, event semantics, issuer context, and update rules.",
+    "Signals that affect profile trust require evidence and auditability."
+  ]
+}

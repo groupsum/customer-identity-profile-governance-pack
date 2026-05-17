@@ -1,0 +1,39 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "customer-identity-profile-domain-boundary"
+title: "Customer Identity Profile Domain Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for customer identity, customer profile data, identity claims, verified profile claims, profile provisioning, shared identity signals, credential-bearing profile claims, customer data platform profile concepts, and public person semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for customer identity, customer profile data, identity claims, verified profile claims, profile provisioning, shared identity signals, credential-bearing profile claims, customer data platform profile concepts, and public person semantics.
+  
+  Customer profile governance spans multiple authority families with different purposes. SCIM governs identity provisioning schema and protocol behavior. OpenID Connect governs authentication-adjacent profile claims and UserInfo responses. OpenID Connect for Identity Assurance governs verified claims and evidence metadata. OpenID Shared Signals governs interoperable subject signaling. W3C Verifiable Credentials governs credential-bearing claims. CDP Institute material governs persistent customer profile concepts. Schema.org Person governs public linked-data person semantics.
+  
+  ## Decision
+  
+  The pack-local domain boundary is customer identity and profile source curation. It includes authoritative targets for SCIM profile provisioning, OpenID profile claims, verified identity claims, verifiable credential profile claims, shared identity signals, persistent CDP profile concepts, and public person semantics.
+  
+  The boundary excludes consent records, ecommerce transactions, product catalogs, marketing attribution events, behavioral telemetry events, analytics event schemas, and jurisdiction-specific privacy governance records except where an authority source directly describes a customer identity or profile attribute.
+  
+  ## Authority Sources
+  
+  - CDP Institute CDP definition and basics materials.
+  - RFC 7643, System for Cross-domain Identity Management: Core Schema.
+  - RFC 7644, System for Cross-domain Identity Management: Protocol.
+  - IANA SCIM Schema URI Registry.
+  - OpenID Connect Core.
+  - OpenID Connect for Identity Assurance.
+  - OpenID Shared Signals Framework.
+  - W3C Verifiable Credentials Data Model.
+  - Schema.org Person.

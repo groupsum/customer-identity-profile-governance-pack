@@ -1,0 +1,25 @@
+{
+  "id": "adr:verified-profile-evidence-policy",
+  "number": 1010,
+  "slug": "verified-profile-evidence-policy",
+  "title": "Verified Profile Evidence Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Verified profile claims may be supported by OpenID identity assurance evidence, verifiable credential proofs, credential status checks, or other documented verification artifacts.",
+    "Evidence freshness, revocation, verification method, and issuer authority determine whether a verified claim can be relied upon."
+  ],
+  "decision": [
+    "Require verified profile claims to retain evidence metadata sufficient to evaluate source, assurance, freshness, revocation, and verification status.",
+    "Separate evidence for OpenID verified claims from evidence for verifiable credential claims while preserving mappings where both are used."
+  ],
+  "authority_sources": [
+    "OpenID Connect for Identity Assurance",
+    "W3C Verifiable Credentials Data Model"
+  ],
+  "consequences": [
+    "Verified profile claims must have tests for evidence presence and status evaluation.",
+    "Claims without current evidence must be downgraded, rejected, or marked as unverified according to downstream policy."
+  ]
+}

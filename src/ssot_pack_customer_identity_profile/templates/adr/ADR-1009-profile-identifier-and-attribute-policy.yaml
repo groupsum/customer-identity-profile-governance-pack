@@ -1,0 +1,29 @@
+{
+  "id": "adr:profile-identifier-and-attribute-policy",
+  "number": 1009,
+  "slug": "profile-identifier-and-attribute-policy",
+  "title": "Profile Identifier And Attribute Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Customer profile records often combine identifiers, names, emails, phone numbers, addresses, roles, entitlements, organizational attributes, and derived attributes.",
+    "Each attribute class may have a different authority source, mutability expectation, sensitivity, and evidence requirement."
+  ],
+  "decision": [
+    "Classify profile identifiers and attributes by source authority, attribute class, mutability, sensitivity, and evidence requirement.",
+    "Require explicit mapping rules when the same attribute appears in SCIM, OpenID Connect, verifiable credentials, CDP records, or public linked-data fields."
+  ],
+  "authority_sources": [
+    "RFC 7643",
+    "OpenID Connect Core",
+    "OpenID Connect for Identity Assurance",
+    "W3C Verifiable Credentials Data Model",
+    "CDP Institute CDP definition and basics",
+    "Schema.org Person"
+  ],
+  "consequences": [
+    "Attribute conflicts must be resolvable through documented precedence, reconciliation, or rejection rules.",
+    "Downstream schemas should distinguish identifiers from descriptive profile attributes and derived attributes."
+  ]
+}

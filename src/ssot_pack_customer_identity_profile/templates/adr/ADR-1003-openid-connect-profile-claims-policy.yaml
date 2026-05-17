@@ -1,0 +1,24 @@
+{
+  "id": "adr:openid-connect-profile-claims-policy",
+  "number": 1003,
+  "slug": "openid-connect-profile-claims-policy",
+  "title": "OpenID Connect Profile Claims Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "OpenID Connect Core defines standard claims and the UserInfo endpoint for interoperable profile information associated with authentication.",
+    "Standard OpenID Connect claims are not the same thing as SCIM provisioning attributes, verifiable credential claims, or customer data platform profile records."
+  ],
+  "decision": [
+    "Use OpenID Connect Core as the authority for standard profile claims and UserInfo response behavior when profile data is obtained from an OpenID Provider.",
+    "Do not treat OpenID Connect standard claims as verified identity assurance claims unless the relevant assurance specification and evidence requirements also apply."
+  ],
+  "authority_sources": [
+    "OpenID Connect Core"
+  ],
+  "consequences": [
+    "Profile claims sourced from OpenID Connect must preserve claim names, issuer context, subject context, and UserInfo semantics.",
+    "Assured or verified claims require a separate identity assurance decision."
+  ]
+}

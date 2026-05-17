@@ -1,0 +1,24 @@
+{
+  "id": "adr:schema-org-person-profile-policy",
+  "number": 1008,
+  "slug": "schema-org-person-profile-policy",
+  "title": "Schema.org Person Profile Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Person provides public linked-data vocabulary for person-like profile information.",
+    "Public linked-data person fields do not carry the same authority as provisioning attributes, authentication claims, verified claims, or credentials."
+  ],
+  "decision": [
+    "Use Schema.org Person when a downstream system publishes or consumes public linked-data person profile fields.",
+    "Keep Schema.org Person fields separate from private customer identity authority unless there is a documented mapping and source policy."
+  ],
+  "authority_sources": [
+    "Schema.org Person"
+  ],
+  "consequences": [
+    "Public profile fields must be mapped deliberately to internal profile attributes.",
+    "Schema.org Person usage should not imply identity verification or account provisioning semantics."
+  ]
+}

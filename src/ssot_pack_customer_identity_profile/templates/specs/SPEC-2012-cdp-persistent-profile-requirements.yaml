@@ -1,0 +1,21 @@
+{
+  "id": "spc:cdp-persistent-profile-requirements",
+  "number": 2012,
+  "slug": "cdp-persistent-profile-requirements",
+  "title": "CDP Persistent Profile Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:cdp-profile-persistence-policy"
+  ],
+  "authority_sources": [
+    "CDP Institute CDP definition and basics"
+  ],
+  "requirements": [
+    "Represent persistent customer profile records separately from transient events and session-only identity observations.",
+    "Document how source records are joined or reconciled into a unified profile.",
+    "Preserve source contribution and merge behavior needed to audit profile construction."
+  ]
+}

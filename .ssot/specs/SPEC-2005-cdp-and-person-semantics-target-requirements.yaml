@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "cdp-and-person-semantics-target-requirements"
+title: "CDP And Person Semantics Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating customer data platform profile concepts and public person profile semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating customer data platform profile concepts and public person profile semantics.
+  
+  ## Requirements
+  
+  - CDP profile targets MUST identify persistent profile, profile unification, accessibility, and source reconciliation concepts where the CDP authority source defines them.
+  - CDP profile targets MUST NOT be curated as protocol-level provisioning, authentication, assurance, or credential proof requirements.
+  - Schema.org Person targets MUST identify public linked-data person fields and remain separate from private identity authority unless a mapping target is explicitly curated.
+  - Public person semantic targets SHOULD identify whether a field maps to a name, address, contact point, affiliation, identifier, image, URL, or other public profile property.
+  
+  ## Authority Sources
+  
+  - CDP Institute CDP definition and basics materials.
+  - Schema.org Person.
+spec_kind: "normative"

@@ -1,0 +1,39 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "customer-identity-profile-target-curation-requirements"
+title: "Customer Identity Profile Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating customer identity and profile conformance targets from authoritative source families."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating customer identity and profile conformance targets from authoritative source families.
+  
+  ## Requirements
+  
+  - The curated target set MUST distinguish SCIM provisioning targets, OpenID Connect profile claim targets, OpenID identity assurance targets, shared identity signal targets, verifiable credential profile targets, CDP profile targets, and Schema.org Person targets.
+  - The curated target set MUST NOT treat customer analytics events, marketing attribution events, consent records, ecommerce transactions, or product catalog records as profile authority targets unless a listed source explicitly governs an identity or profile attribute.
+  - Each target SHOULD identify whether it governs an identifier, a descriptive attribute, an entitlement, a verification/evidence field, a credential field, a signal field, or a platform-level profile concept.
+  - Each target SHOULD preserve source family and authority source names so downstream adopters can map implementation choices to the correct authority.
+  
+  ## Authority Sources
+  
+  - CDP Institute CDP definition and basics materials.
+  - RFC 7643.
+  - RFC 7644.
+  - IANA SCIM Schema URI Registry.
+  - OpenID Connect Core.
+  - OpenID Connect for Identity Assurance.
+  - OpenID Shared Signals Framework.
+  - W3C Verifiable Credentials Data Model.
+  - Schema.org Person.
+spec_kind: "normative"

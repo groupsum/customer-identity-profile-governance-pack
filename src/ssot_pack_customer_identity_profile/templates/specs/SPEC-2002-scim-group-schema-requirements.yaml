@@ -1,0 +1,21 @@
+{
+  "id": "spc:scim-group-schema-requirements",
+  "number": 2002,
+  "slug": "scim-group-schema-requirements",
+  "title": "SCIM Group Schema Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:scim-provisioning-profile-policy"
+  ],
+  "authority_sources": [
+    "RFC 7643"
+  ],
+  "requirements": [
+    "Represent SCIM Group resources separately from user profile resources.",
+    "Preserve group displayName and member references according to SCIM schema semantics.",
+    "Do not treat group membership as an authentication claim unless a separate claim authority supplies that meaning."
+  ]
+}

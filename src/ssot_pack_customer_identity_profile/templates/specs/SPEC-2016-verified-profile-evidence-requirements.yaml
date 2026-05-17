@@ -1,0 +1,24 @@
+{
+  "id": "spc:verified-profile-evidence-requirements",
+  "number": 2016,
+  "slug": "verified-profile-evidence-requirements",
+  "title": "Verified Profile Evidence Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:verified-profile-evidence-policy",
+    "adr:openid-identity-assurance-policy",
+    "adr:verifiable-credential-profile-policy"
+  ],
+  "authority_sources": [
+    "OpenID Connect for Identity Assurance",
+    "W3C Verifiable Credentials Data Model"
+  ],
+  "requirements": [
+    "Retain evidence metadata for verified profile claims, including source, freshness, verification method, status, and issuer context where applicable.",
+    "Define how claims are downgraded, rejected, or marked unverified when evidence is missing, stale, revoked, or unverifiable.",
+    "Test evidence handling for both OpenID verified claims and verifiable credential claims when both are supported."
+  ]
+}

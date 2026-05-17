@@ -1,0 +1,27 @@
+{
+  "id": "spc:profile-attribute-classification-requirements",
+  "number": 2015,
+  "slug": "profile-attribute-classification-requirements",
+  "title": "Profile Attribute Classification Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:profile-identifier-and-attribute-policy",
+    "adr:customer-profile-source-policy"
+  ],
+  "authority_sources": [
+    "RFC 7643",
+    "OpenID Connect Core",
+    "OpenID Connect for Identity Assurance",
+    "W3C Verifiable Credentials Data Model",
+    "CDP Institute CDP definition and basics",
+    "Schema.org Person"
+  ],
+  "requirements": [
+    "Classify each governed profile field as an identifier, descriptive attribute, entitlement, relationship, verification field, credential field, signal field, or derived field.",
+    "Record source authority and reconciliation behavior for fields present in more than one source family.",
+    "Define conflict behavior for inconsistent profile values from different authorities."
+  ]
+}

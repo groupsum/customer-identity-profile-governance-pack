@@ -1,0 +1,21 @@
+{
+  "id": "spc:scim-schema-uri-registry-requirements",
+  "number": 2004,
+  "slug": "scim-schema-uri-registry-requirements",
+  "title": "SCIM Schema URI Registry Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:scim-provisioning-profile-policy"
+  ],
+  "authority_sources": [
+    "IANA SCIM Schema URI Registry"
+  ],
+  "requirements": [
+    "Use registered SCIM schema URIs where a registered schema governs the represented resource or extension.",
+    "Preserve schema URI identity as data, not only as display text.",
+    "Reject ambiguous extension identifiers when a registered SCIM schema URI is required."
+  ]
+}

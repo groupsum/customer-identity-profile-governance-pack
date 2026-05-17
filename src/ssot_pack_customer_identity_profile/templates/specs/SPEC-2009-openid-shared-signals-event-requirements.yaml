@@ -1,0 +1,21 @@
+{
+  "id": "spc:openid-shared-signals-event-requirements",
+  "number": 2009,
+  "slug": "openid-shared-signals-event-requirements",
+  "title": "OpenID Shared Signals Event Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:shared-identity-signal-policy"
+  ],
+  "authority_sources": [
+    "OpenID Shared Signals Framework"
+  ],
+  "requirements": [
+    "Document which shared identity signal events are sent, received, stored, or acted upon.",
+    "Preserve issuer, subject, event type, and timing context for evaluated signals.",
+    "Define whether each signal updates profile state, marks trust state, or only produces audit evidence."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "spc:openid-connect-userinfo-requirements",
+  "number": 2006,
+  "slug": "openid-connect-userinfo-requirements",
+  "title": "OpenID Connect UserInfo Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:openid-connect-profile-claims-policy"
+  ],
+  "authority_sources": [
+    "OpenID Connect Core"
+  ],
+  "requirements": [
+    "Validate UserInfo response handling for subject consistency and requested claims.",
+    "Preserve the distinction between ID Token claims and UserInfo response claims.",
+    "Document which profile claims are accepted from UserInfo and how conflicts are resolved."
+  ]
+}

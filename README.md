@@ -43,10 +43,22 @@ Customer Identity And Profile Data
 
 ## Included SPECs
 
-- `spc:scim-user-profile-contract` - SCIM User Profile Contract
-- `spc:openid-connect-claims-contract` - OpenID Connect Claims Contract
-- `spc:verifiable-credentials-profile-contract` - Verifiable Credentials Profile Contract
-- `spc:cdp-profile-contract` - CDP Profile Contract
+- `spc:scim-core-user-schema-requirements` - SCIM Core User Schema Requirements
+- `spc:scim-group-schema-requirements` - SCIM Group Schema Requirements
+- `spc:scim-protocol-operation-requirements` - SCIM Protocol Operation Requirements
+- `spc:scim-schema-uri-registry-requirements` - SCIM Schema URI Registry Requirements
+- `spc:openid-connect-standard-claims-requirements` - OpenID Connect Standard Claims Requirements
+- `spc:openid-connect-userinfo-requirements` - OpenID Connect UserInfo Requirements
+- `spc:openid-identity-assurance-verified-claims-requirements` - OpenID Identity Assurance Verified Claims Requirements
+- `spc:openid-shared-signals-subject-requirements` - OpenID Shared Signals Subject Requirements
+- `spc:openid-shared-signals-event-requirements` - OpenID Shared Signals Event Requirements
+- `spc:verifiable-credentials-core-profile-requirements` - Verifiable Credentials Core Profile Requirements
+- `spc:verifiable-credentials-status-schema-requirements` - Verifiable Credentials Status And Schema Requirements
+- `spc:cdp-persistent-profile-requirements` - CDP Persistent Profile Requirements
+- `spc:cdp-profile-accessibility-requirements` - CDP Profile Accessibility Requirements
+- `spc:schema-org-person-profile-requirements` - Schema.org Person Profile Requirements
+- `spc:profile-attribute-classification-requirements` - Profile Attribute Classification Requirements
+- `spc:verified-profile-evidence-requirements` - Verified Profile Evidence Requirements
 
 ## Install With uv
 

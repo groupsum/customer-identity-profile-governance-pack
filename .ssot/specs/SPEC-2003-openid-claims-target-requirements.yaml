@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "openid-claims-target-requirements"
+title: "OpenID Claims Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating OpenID profile claim and verified claim targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating OpenID profile claim and verified claim targets.
+  
+  ## Requirements
+  
+  - OpenID Connect Core targets MUST distinguish standard claims, ID Token claim context, and UserInfo response behavior.
+  - OpenID identity assurance targets MUST distinguish verified claims, evidence metadata, verification methods, trust framework context, and assurance metadata.
+  - Ordinary OpenID Connect profile claims MUST NOT be curated as verified claims unless an identity assurance authority source governs the claim and its evidence requirements.
+  - Verified claim targets SHOULD identify evidence freshness, verification method, issuer or trust framework context, and claim source where the source defines those semantics.
+  
+  ## Authority Sources
+  
+  - OpenID Connect Core.
+  - OpenID Connect for Identity Assurance.
+spec_kind: "normative"

@@ -1,0 +1,34 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "scim-target-requirements"
+title: "SCIM Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating SCIM customer profile provisioning targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating SCIM customer profile provisioning targets.
+  
+  ## Requirements
+  
+  - SCIM targets MUST be sourced from RFC 7643, RFC 7644, or the IANA SCIM Schema URI Registry.
+  - SCIM schema targets MUST identify whether they govern User resources, Group resources, enterprise extensions, common attributes, attribute characteristics, or extension schema identifiers.
+  - SCIM protocol targets MUST identify whether they govern create, read, update, delete, query, filtering, pagination, bulk, patch, service provider configuration, resource type discovery, or schema discovery behavior.
+  - SCIM schema URI targets MUST preserve registered URI identity and registry authority.
+  - SCIM targets MUST NOT imply OpenID Connect authentication claim behavior, OpenID assurance evidence behavior, W3C verifiable credential proof behavior, or CDP profile unification behavior.
+  
+  ## Authority Sources
+  
+  - RFC 7643, System for Cross-domain Identity Management: Core Schema.
+  - RFC 7644, System for Cross-domain Identity Management: Protocol.
+  - IANA SCIM Schema URI Registry.
+spec_kind: "normative"

@@ -1,0 +1,21 @@
+{
+  "id": "spc:scim-protocol-operation-requirements",
+  "number": 2003,
+  "slug": "scim-protocol-operation-requirements",
+  "title": "SCIM Protocol Operation Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:scim-provisioning-profile-policy"
+  ],
+  "authority_sources": [
+    "RFC 7644"
+  ],
+  "requirements": [
+    "Document supported SCIM create, read, replace, patch, delete, query, filtering, pagination, and bulk operations.",
+    "Expose service provider configuration, resource type discovery, and schema discovery behavior when supported.",
+    "Validate protocol errors, filtering behavior, pagination behavior, and patch semantics against SCIM protocol authority."
+  ]
+}

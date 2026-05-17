@@ -1,0 +1,21 @@
+{
+  "id": "spc:cdp-profile-accessibility-requirements",
+  "number": 2013,
+  "slug": "cdp-profile-accessibility-requirements",
+  "title": "CDP Profile Accessibility Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:cdp-profile-persistence-policy"
+  ],
+  "authority_sources": [
+    "CDP Institute CDP definition and basics"
+  ],
+  "requirements": [
+    "Document which systems can read, write, export, or activate customer profile data.",
+    "Preserve profile accessibility rules separately from profile unification rules.",
+    "Test that exported profile data retains source and attribute classification needed by consuming systems."
+  ]
+}

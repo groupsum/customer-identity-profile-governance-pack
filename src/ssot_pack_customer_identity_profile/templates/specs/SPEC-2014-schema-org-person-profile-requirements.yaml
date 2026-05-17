@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-person-profile-requirements",
+  "number": 2014,
+  "slug": "schema-org-person-profile-requirements",
+  "title": "Schema.org Person Profile Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-person-profile-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Person"
+  ],
+  "requirements": [
+    "Map public person profile fields to Schema.org Person properties when linked-data person semantics are required.",
+    "Keep public person fields separate from private provisioning, authentication, assurance, credential, and CDP profile authority.",
+    "Document mappings between internal profile attributes and public linked-data fields."
+  ]
+}

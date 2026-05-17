@@ -1,0 +1,21 @@
+{
+  "id": "spc:openid-shared-signals-subject-requirements",
+  "number": 2008,
+  "slug": "openid-shared-signals-subject-requirements",
+  "title": "OpenID Shared Signals Subject Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:shared-identity-signal-policy"
+  ],
+  "authority_sources": [
+    "OpenID Shared Signals Framework"
+  ],
+  "requirements": [
+    "Represent signal subjects using the subject formats accepted by the implementation.",
+    "Preserve enough subject context to correlate a signal with the affected identity or profile record.",
+    "Reject subject identifiers that cannot be mapped to a documented identity scope."
+  ]
+}

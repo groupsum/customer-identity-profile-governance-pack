@@ -50,35 +50,35 @@ Customer Identity And Profile Data
 
 ## Included ADRs
 
-- `adr:customer-profile-source-policy` - Customer Profile Source Policy
-- `adr:scim-provisioning-profile-policy` - SCIM Provisioning Profile Policy
-- `adr:openid-connect-profile-claims-policy` - OpenID Connect Profile Claims Policy
-- `adr:openid-identity-assurance-policy` - OpenID Identity Assurance Policy
-- `adr:verifiable-credential-profile-policy` - Verifiable Credential Profile Policy
-- `adr:shared-identity-signal-policy` - Shared Identity Signal Policy
-- `adr:cdp-profile-persistence-policy` - CDP Profile Persistence Policy
-- `adr:schema-org-person-profile-policy` - Schema.org Person Profile Policy
-- `adr:profile-identifier-and-attribute-policy` - Profile Identifier And Attribute Policy
-- `adr:verified-profile-evidence-policy` - Verified Profile Evidence Policy
+- [`adr:customer-profile-source-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1001-customer-profile-source-policy.yaml) - Customer Profile Source Policy
+- [`adr:scim-provisioning-profile-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1002-scim-provisioning-profile-policy.yaml) - SCIM Provisioning Profile Policy
+- [`adr:openid-connect-profile-claims-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1003-openid-connect-profile-claims-policy.yaml) - OpenID Connect Profile Claims Policy
+- [`adr:openid-identity-assurance-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1004-openid-identity-assurance-policy.yaml) - OpenID Identity Assurance Policy
+- [`adr:verifiable-credential-profile-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1005-verifiable-credential-profile-policy.yaml) - Verifiable Credential Profile Policy
+- [`adr:shared-identity-signal-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1006-shared-identity-signal-policy.yaml) - Shared Identity Signal Policy
+- [`adr:cdp-profile-persistence-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1007-cdp-profile-persistence-policy.yaml) - CDP Profile Persistence Policy
+- [`adr:schema-org-person-profile-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1008-schema-org-person-profile-policy.yaml) - Schema.org Person Profile Policy
+- [`adr:profile-identifier-and-attribute-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1009-profile-identifier-and-attribute-policy.yaml) - Profile Identifier And Attribute Policy
+- [`adr:verified-profile-evidence-policy`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/adr/ADR-1010-verified-profile-evidence-policy.yaml) - Verified Profile Evidence Policy
 
 ## Included SPECs
 
-- `spc:scim-core-user-schema-requirements` - SCIM Core User Schema Requirements
-- `spc:scim-group-schema-requirements` - SCIM Group Schema Requirements
-- `spc:scim-protocol-operation-requirements` - SCIM Protocol Operation Requirements
-- `spc:scim-schema-uri-registry-requirements` - SCIM Schema URI Registry Requirements
-- `spc:openid-connect-standard-claims-requirements` - OpenID Connect Standard Claims Requirements
-- `spc:openid-connect-userinfo-requirements` - OpenID Connect UserInfo Requirements
-- `spc:openid-identity-assurance-verified-claims-requirements` - OpenID Identity Assurance Verified Claims Requirements
-- `spc:openid-shared-signals-subject-requirements` - OpenID Shared Signals Subject Requirements
-- `spc:openid-shared-signals-event-requirements` - OpenID Shared Signals Event Requirements
-- `spc:verifiable-credentials-core-profile-requirements` - Verifiable Credentials Core Profile Requirements
-- `spc:verifiable-credentials-status-schema-requirements` - Verifiable Credentials Status And Schema Requirements
-- `spc:cdp-persistent-profile-requirements` - CDP Persistent Profile Requirements
-- `spc:cdp-profile-accessibility-requirements` - CDP Profile Accessibility Requirements
-- `spc:schema-org-person-profile-requirements` - Schema.org Person Profile Requirements
-- `spc:profile-attribute-classification-requirements` - Profile Attribute Classification Requirements
-- `spc:verified-profile-evidence-requirements` - Verified Profile Evidence Requirements
+- [`spc:scim-core-user-schema-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2001-scim-core-user-schema-requirements.yaml) - SCIM Core User Schema Requirements
+- [`spc:scim-group-schema-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2002-scim-group-schema-requirements.yaml) - SCIM Group Schema Requirements
+- [`spc:scim-protocol-operation-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2003-scim-protocol-operation-requirements.yaml) - SCIM Protocol Operation Requirements
+- [`spc:scim-schema-uri-registry-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2004-scim-schema-uri-registry-requirements.yaml) - SCIM Schema URI Registry Requirements
+- [`spc:openid-connect-standard-claims-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2005-openid-connect-standard-claims-requirements.yaml) - OpenID Connect Standard Claims Requirements
+- [`spc:openid-connect-userinfo-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2006-openid-connect-userinfo-requirements.yaml) - OpenID Connect UserInfo Requirements
+- [`spc:openid-identity-assurance-verified-claims-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2007-openid-identity-assurance-verified-claims-requirements.yaml) - OpenID Identity Assurance Verified Claims Requirements
+- [`spc:openid-shared-signals-subject-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2008-openid-shared-signals-subject-requirements.yaml) - OpenID Shared Signals Subject Requirements
+- [`spc:openid-shared-signals-event-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2009-openid-shared-signals-event-requirements.yaml) - OpenID Shared Signals Event Requirements
+- [`spc:verifiable-credentials-core-profile-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2010-verifiable-credentials-core-profile-requirements.yaml) - Verifiable Credentials Core Profile Requirements
+- [`spc:verifiable-credentials-status-schema-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2011-verifiable-credentials-status-schema-requirements.yaml) - Verifiable Credentials Status And Schema Requirements
+- [`spc:cdp-persistent-profile-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2012-cdp-persistent-profile-requirements.yaml) - CDP Persistent Profile Requirements
+- [`spc:cdp-profile-accessibility-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2013-cdp-profile-accessibility-requirements.yaml) - CDP Profile Accessibility Requirements
+- [`spc:schema-org-person-profile-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2014-schema-org-person-profile-requirements.yaml) - Schema.org Person Profile Requirements
+- [`spc:profile-attribute-classification-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2015-profile-attribute-classification-requirements.yaml) - Profile Attribute Classification Requirements
+- [`spc:verified-profile-evidence-requirements`](https://github.com/groupsum/customer-identity-profile-governance-pack/blob/master/src/ssot_pack_customer_identity_profile/templates/specs/SPEC-2016-verified-profile-evidence-requirements.yaml) - Verified Profile Evidence Requirements
 
 ## Install With uv
 

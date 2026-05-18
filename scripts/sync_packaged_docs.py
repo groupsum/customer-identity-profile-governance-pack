@@ -13,7 +13,7 @@ except ModuleNotFoundError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 ADR_TEMPLATES = ROOT / "src" / "ssot_pack_customer_identity_profile" / "templates" / "adr"
 SPEC_TEMPLATES = ROOT / "src" / "ssot_pack_customer_identity_profile" / "templates" / "specs"
-RESERVATION_OWNER = "extension-pack:ssot-pack-customer-identity-profile"
+RESERVATION_OWNER = "extension-pack:customer-identity-profile-governance-pack"
 MINIMUM_SCHEMA_VERSION = "0.4.0"
 
 

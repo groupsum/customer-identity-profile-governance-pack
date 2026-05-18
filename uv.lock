@@ -90,7 +90,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ssot-pack-customer-identity-profile"
+name = "customer-identity-profile-governance-pack"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

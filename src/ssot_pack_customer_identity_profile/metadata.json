@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "ssot_package_name": "ssot-pack-customer-identity-profile",
+  "ssot_package_name": "customer-identity-profile-governance-pack",
   "origin": {
     "id": "pack:customer-identity-profile",
-    "package_name": "ssot-pack-customer-identity-profile",
+    "package_name": "customer-identity-profile-governance-pack",
     "import_name": "ssot_pack_customer_identity_profile",
     "kind": "governance-pack",
     "title": "Customer Identity And Profile Data",
@@ -19,7 +19,7 @@
   "trust": {
     "trusted_by_default": false,
     "origin": "extension-pack",
-    "reservation_owner": "extension-pack:ssot-pack-customer-identity-profile"
+    "reservation_owner": "extension-pack:customer-identity-profile-governance-pack"
   },
   "documents": {
     "adr": {

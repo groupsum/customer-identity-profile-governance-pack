@@ -1,4 +1,4 @@
-# ssot-pack-customer-identity-profile
+# customer-identity-profile-governance-pack
 
 Installable SSOT governance pack for customer identity, profile claims, SCIM, OpenID Connect, verified credentials, and CDP profile concepts.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:customer-identity-profile`
 - Priority: `P2.1`
-- PyPI package: `ssot-pack-customer-identity-profile`
+- PyPI package: `customer-identity-profile-governance-pack`
 - Import package: `ssot_pack_customer_identity_profile`
 - GitHub repository: `groupsum/customer-identity-profile-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-customer-identity-profile`
+- Reservation owner: `extension-pack:customer-identity-profile-governance-pack`
 
 ## Domain Focus
 
@@ -63,15 +63,15 @@ Customer Identity And Profile Data
 ## Install With uv
 
 ```bash
-uv add ssot-pack-customer-identity-profile
-uv add ssot-registry ssot-pack-customer-identity-profile
+uv add customer-identity-profile-governance-pack
+uv add ssot-registry customer-identity-profile-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-customer-identity-profile
-uvx --from ssot-registry ssot pack sync . ssot-pack-customer-identity-profile
+uvx --from ssot-registry ssot pack install customer-identity-profile-governance-pack
+uvx --from ssot-registry ssot pack sync . customer-identity-profile-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -88,5 +88,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/customer-identity-profile-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-customer-identity-profile/
+- PyPI package: https://pypi.org/project/customer-identity-profile-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

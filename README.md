@@ -1,10 +1,13 @@
+<div align="center">
+
 # customer-identity-profile-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
 [![License](https://img.shields.io/pypi/l/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
 [![Publish](https://github.com/groupsum/customer-identity-profile-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/customer-identity-profile-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/customer-identity-profile-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for customer identity, profile claims, SCIM, OpenID Connect, verified credentials, and CDP profile concepts.
 

@@ -1,8 +1,29 @@
 # customer-identity-profile-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
+[![License](https://img.shields.io/pypi/l/customer-identity-profile-governance-pack.svg)](https://pypi.org/project/customer-identity-profile-governance-pack/)
+[![Publish](https://github.com/groupsum/customer-identity-profile-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/customer-identity-profile-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/customer-identity-profile-governance-pack)
+
 Installable SSOT governance pack for customer identity, profile claims, SCIM, OpenID Connect, verified credentials, and CDP profile concepts.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `customer-identity-profile-governance-pack` is an installable SSOT governance pack for Customer Identity And Profile Data. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern customer identity and profile data, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`customer-identity-profile-governance-pack`](https://pypi.org/project/customer-identity-profile-governance-pack/)
+- GitHub package repository: [`groupsum/customer-identity-profile-governance-pack`](https://github.com/groupsum/customer-identity-profile-governance-pack)
+- Import package: `ssot_pack_customer_identity_profile`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,14 +40,14 @@ Customer Identity And Profile Data
 
 ## Authority Sources
 
-- CDP Institute CDP definition
-- SCIM Core Schema and Protocol
-- IANA SCIM Schema URI Registry
-- OpenID Connect Core
-- OpenID Connect for Identity Assurance
-- OpenID Shared Signals Framework
-- W3C Verifiable Credentials Data Model
-- Schema.org Person
+- [CDP Institute CDP definition](https://www.cdpinstitute.org/learning-center/what-is-a-cdp/)
+- [SCIM Core Schema](https://www.rfc-editor.org/rfc/rfc7643.html) and [SCIM Protocol](https://www.rfc-editor.org/rfc/rfc7644.html)
+- [IANA SCIM Schema URI Registry](https://www.iana.org/assignments/scim/scim.xhtml)
+- [OpenID Connect Core](https://openid.net/specs/openid-connect-core-1_0-18.html)
+- [OpenID Connect for Identity Assurance](https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html)
+- [OpenID Shared Signals Framework](https://openid.github.io/sharedsignals/openid-sharedsignals-framework-1_0.html)
+- [W3C Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model/)
+- [Schema.org Person](https://schema.org/Person)
 
 ## Included ADRs
 
@@ -87,6 +108,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/customer-identity-profile-governance-pack
-- PyPI package: https://pypi.org/project/customer-identity-profile-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/customer-identity-profile-governance-pack](https://github.com/groupsum/customer-identity-profile-governance-pack)
+- PyPI package: [customer-identity-profile-governance-pack](https://pypi.org/project/customer-identity-profile-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)

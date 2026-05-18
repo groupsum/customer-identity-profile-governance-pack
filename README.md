@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:customer-identity-profile`
-- Priority: `P2.1`
 - PyPI package: `customer-identity-profile-governance-pack`
 - Import package: `ssot_pack_customer_identity_profile`
 - GitHub repository: `groupsum/customer-identity-profile-governance-pack`

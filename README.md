@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:customer-identity-profile`
 - PyPI package: `customer-identity-profile-governance-pack`
 - Import package: `ssot_pack_customer_identity_profile`
-- GitHub repository: `groupsum/customer-identity-profile-governance-pack`
+- GitHub repository: [groupsum/customer-identity-profile-governance-pack](https://github.com/groupsum/customer-identity-profile-governance-pack)
 - Reservation owner: `extension-pack:customer-identity-profile-governance-pack`
 
 ## Domain Focus

@@ -114,3 +114,7 @@ spec_manifest = load_document_manifest("spec")
 - PyPI package: [customer-identity-profile-governance-pack](https://pypi.org/project/customer-identity-profile-governance-pack/)
 - SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
 - SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
+
+## Normative ownership boundary
+
+Removed duplicate OIDC, identity-assurance, and VC ownership; added a customer-profile integration boundary.

@@ -3,9 +3,11 @@
   "number": 2006,
   "slug": "openid-connect-userinfo-requirements",
   "title": "OpenID Connect UserInfo Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "supersedes": [],
-  "superseded_by": [],
+  "superseded_by": [
+    "spc:oidc-userinfo-and-authentication-claims-contract"
+  ],
   "spec_kind": "normative",
   "adr_ids": [
     "adr:openid-connect-profile-claims-policy"
@@ -17,5 +19,11 @@
     "Validate UserInfo response handling for subject consistency and requested claims.",
     "Preserve the distinction between ID Token claims and UserInfo response claims.",
     "Document which profile claims are accepted from UserInfo and how conflicts are resolved."
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
   ]
 }

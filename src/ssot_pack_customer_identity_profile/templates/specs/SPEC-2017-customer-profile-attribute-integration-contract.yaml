@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:customer-profile-attribute-integration-contract",
+  "number": 2017,
+  "slug": "customer-profile-attribute-integration-contract",
+  "title": "Customer Profile Attribute Integration Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines how externally verified identity attributes enter a persistent customer profile.",
+  "body": "## Requirements\n\n- Preserve attribute source, verification method, verification time, and expiry.\n- Keep authentication and credential-processing results separate from persistent profile semantics.\n- Do not infer application permissions from profile attributes.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.rfc-editor.org/rfc/rfc7643",
+    "https://openid.net/specs/openid-connect-core-1_0.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "customer",
+    "profile",
+    "attribute",
+    "integration",
+    "contract"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:customer-profiles-consume-external-identity-protocol-authorities"
+  ]
+}

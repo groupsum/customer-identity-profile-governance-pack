@@ -3,9 +3,12 @@
   "number": 2007,
   "slug": "openid-identity-assurance-verified-claims-requirements",
   "title": "OpenID Identity Assurance Verified Claims Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "supersedes": [],
-  "superseded_by": [],
+  "superseded_by": [
+    "spc:identity-assurance-level-selection-contract",
+    "spc:federated-subject-attribute-release-and-audit-contract"
+  ],
   "spec_kind": "normative",
   "adr_ids": [
     "adr:openid-identity-assurance-policy",
@@ -18,5 +21,11 @@
     "Represent verified claims separately from ordinary OpenID Connect standard claims.",
     "Preserve verification, evidence, trust framework, and assurance metadata when available.",
     "Test verified claim handling for evidence presence, freshness, and downgrade behavior when evidence is absent or stale."
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
   ]
 }

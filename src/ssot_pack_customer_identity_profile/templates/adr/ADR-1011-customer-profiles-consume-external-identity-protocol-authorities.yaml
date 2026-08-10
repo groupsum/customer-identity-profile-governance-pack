@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:customer-profiles-consume-external-identity-protocol-authorities",
+  "number": 1011,
+  "slug": "customer-profiles-consume-external-identity-protocol-authorities",
+  "title": "Customer Profiles Consume External Identity Protocol Authorities",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Customer profile governance consumes rather than redefines authentication, federation, and verifiable credential protocols.",
+  "body": "Customer profiles own persistent attribute semantics, SCIM provisioning, profile accessibility, and evidence linkage. Federation, assurance, and verifiable credential processing remain externally governed.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.rfc-editor.org/rfc/rfc7643",
+    "https://openid.net/specs/openid-connect-core-1_0.html",
+    "https://www.w3.org/TR/vc-data-model-2.0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "customer",
+    "profiles",
+    "consume",
+    "external",
+    "identity",
+    "protocol",
+    "authorities"
+  ]
+}

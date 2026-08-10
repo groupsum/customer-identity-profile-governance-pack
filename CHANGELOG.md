@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0.dev1
+
+- Removed duplicate OIDC, identity-assurance, and VC ownership; added a customer-profile integration boundary.
+
 ## 0.1.1.dev1
 
 - Pending release notes.

@@ -3,9 +3,11 @@
   "number": 2005,
   "slug": "openid-connect-standard-claims-requirements",
   "title": "OpenID Connect Standard Claims Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "supersedes": [],
-  "superseded_by": [],
+  "superseded_by": [
+    "spc:oidc-userinfo-and-authentication-claims-contract"
+  ],
   "spec_kind": "normative",
   "adr_ids": [
     "adr:openid-connect-profile-claims-policy"
@@ -17,5 +19,11 @@
     "Represent OpenID Connect standard claims using their standard claim names and value expectations.",
     "Preserve issuer and subject context for claims obtained from an OpenID Provider.",
     "Do not represent ordinary standard claims as verified claims without an identity assurance authority."
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
   ]
 }

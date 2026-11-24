@@ -215,7 +215,7 @@
     "title": "Customer Profile Attribute Integration Contract",
     "filename": "SPEC-2017-customer-profile-attribute-integration-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2017-customer-profile-attribute-integration-contract.yaml",
-    "sha256": "60dff3a10a544ff98d373c2490d596402a3f59588fed27f3302b7ae78e1d2f47",
+    "sha256": "8a6c816f2fcab674bbe49584c2966a6910cea526b6e7123b273157ee65face3c",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:customer-identity-profile-governance-pack",
     "immutable": true,
